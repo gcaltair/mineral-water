@@ -6,6 +6,8 @@
 
 [Copy?](https://www.bilibili.com/video/BV1Dh4y1g7hR/?spm_id_from=333.976.0.0&vd_source=48967c9da100242a790cef3ee3c6d53c)
 
+[Electron_Terminal_demo](https://github.com/OBKoro1/electron-terminal-demo)
+
 ## 工具准备
 
 1. 安装最新版[DevEco Studio](https://docs.openharmony.cn/pages/v4.0/zh-cn/release-notes/OpenHarmony-v4.0-release.md#配套关系)。
@@ -295,3 +297,51 @@
    ![zh-cn_image_0000001364254729](https://docs.openharmony.cn/doc_v4.0_1717713913/zh-cn/application-dev/quick-start/figures/zh-cn_image_0000001364254729.png)
 
 恭喜您已经使用ArkTS语言开发（Stage模型）完成了第一个OpenHarmony应用，快来[探索更多的OpenHarmony功能](https://docs.openharmony.cn/pages/v4.0/zh-cn/application-dev/application-dev-guide.md)吧。
+
+
+
+## Electron
+
+**配置环境**
+
+事先需要安装`Node.js`
+
+安装cnpm
+
+```terminal
+npm install -g cnpm --registry=https://registry.npmmirror.com
+```
+
+cnpm无法使用，更改安全政策
+
+```terminal
+Get-ExecutionPolicy
+Set-ExecutionPolicy RemoteSigned
+```
+
+使用cnpm安装依赖
+
+```terminal
+cnpm install
+```
+
+安装vue
+
+```terminal
+npm install -g @vue/cli
+```
+
+检查vue安装
+
+```terminal
+vue --version
+```
+
+运行
+
+```cmd
+npm run start	
+```
+
+[**解决乱码问题**](https://blog.csdn.net/qq_44910894/article/details/136444258)
+
